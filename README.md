@@ -6,14 +6,11 @@ This Python script allows you to download the audio of tracks from a Spotify pla
 Before running the script, you'll need to have the following:
 
 - Python 3.10+ installed on your system.
-- The `spotipy` library for accessing the Spotify Web API. You can install it via pip:
+- The `spotipy` library and `yt_dlp` library  You can install it via pip:
   ```
-  pip install spotipy
+  pip install -r requirements.txt
   ```
-- The `yt_dlp` library for downloading audio from YouTube. You can install it via pip:
-  ```
-  pip install yt-dlp
-  ```
+- On Lines **14** and **15** replace with your spotify api client id and client secret.
 
 ## How to Run
 
